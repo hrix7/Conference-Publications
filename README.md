@@ -33,10 +33,10 @@ I will not upload accepted manuscripts, figures, reviewer correspondence, privat
 
 ## Author and Research Setting
 
-**Hritika Adhikary**  
-Collaborative Biomedical Engineering Research  
-Two conference papers accepted for presentation at Carnegie Mellon University  
-October 2026
+**Author:** Hritika Adhikary  
+**Work:** Collaborative Biomedical Engineering Research  
+**Conference Location:** Carnegie Mellon University  
+**Status:** Two papers accepted for October 2026
 
 ## Rights
 
