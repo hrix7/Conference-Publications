@@ -1,26 +1,40 @@
 # Conference Publications
 
-A public, permissions-aware home for Hritika Adhikary's conference publication metadata and approved reproducibility materials.
+I created this repository to maintain verified citations and public supporting material for my conference work. Two papers have been accepted for an October 2026 conference at Carnegie Mellon University. I will add the exact titles, author order, venue name, abstracts, DOI/proceedings links, and approved files only after I verify them against the official acceptance and publication records.
 
-Two papers have been accepted for an October 2026 conference associated with Carnegie Mellon. Exact titles, author order, venue details, abstracts, citations, and files are intentionally marked as pending until they are verified and cleared for public release.
+## Work completed
 
-## What may be added
+- Contributed to two accepted conference papers.
+- Organized a release process for citation metadata and public materials.
+- Separated verified information from placeholders so incomplete records cannot be presented as final citations.
+- Added checks for author lists, dates, venue information, and material-sharing clearance.
+- Prepared a structure for future abstracts, posters, slides, and supplementary code when co-author and publisher rules permit release.
 
-- Verified citation metadata
-- Author-approved abstracts
-- Public posters and slides
-- Code and synthetic examples
-- Official proceedings or DOI links
-- Reproducibility notes permitted by the venue
+## Repository code
 
-## What must not be added prematurely
+- `scripts/validate_metadata.py` checks each publication record for required fields and unresolved placeholders.
+- `scripts/build_citations.py` converts verified YAML records into a Markdown publication list.
+- `publications/paper-01.yaml` and `paper-02.yaml` hold controlled metadata records.
+- `docs/RELEASE_CHECKLIST.md` records the verification and rights checks required before publication.
 
-Unpublished manuscripts, private reviewer correspondence, restricted data, coauthor-owned files without consent, or materials that conflict with the venue's copyright policy.
+## Run the metadata checks
 
-## Included utility
+```bash
+python -m pip install -r requirements.txt
+python scripts/validate_metadata.py
+python scripts/build_citations.py --output PUBLICATIONS.md
+```
 
-`scripts/validate_metadata.py` checks publication YAML files for required fields and prevents placeholder records from being treated as complete citations.
+The generator intentionally refuses to publish records that still contain unverified placeholder values.
 
-## License
+## Release policy
 
-MIT applies to original code and documentation only. Publication copyrights may differ.
+I will not upload accepted manuscripts, figures, reviewer correspondence, private datasets, or co-author material until the applicable conference, publisher, sponsor, institutional, and co-author permissions are confirmed.
+
+## Author
+
+Hritika Adhikary.
+
+## Rights
+
+Copyright (c) 2026 Hritika Adhikary. All rights reserved. See [LICENSE](LICENSE).
