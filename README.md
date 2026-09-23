@@ -31,9 +31,12 @@ The generator intentionally refuses to publish records that still contain unveri
 
 I will not upload accepted manuscripts, figures, reviewer correspondence, private datasets, or co-author material until the applicable conference, publisher, sponsor, institutional, and co-author permissions are confirmed.
 
-## Author
+## Author and Research Setting
 
-Hritika Adhikary.
+**Hritika Adhikary**  
+Collaborative Biomedical Engineering Research  
+Two conference papers accepted for presentation at Carnegie Mellon University  
+October 2026
 
 ## Rights
 
