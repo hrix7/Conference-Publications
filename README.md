@@ -41,3 +41,7 @@ I will not upload accepted manuscripts, figures, reviewer correspondence, privat
 ## Rights
 
 Copyright (c) 2026 Hritika Adhikary. All rights reserved. See [LICENSE](LICENSE).
+
+## Active research prototype
+
+[Autonomous Cyber Systems Accountability Lab](projects/acw-accountability/README.md) — runnable Python human-control scoring, synthetic examples, sensitivity analysis and an October 12–25 roadmap. Exploratory tooling; not a validated compliance instrument or manuscript release.
